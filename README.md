@@ -1,4 +1,4 @@
 # Imam Farisi
-This is my Portfolio website reporsitory
+This is my portfolio and contact website reporsitory
 
 ### portfolio-imam-farisi v0.0.3
