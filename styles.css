@@ -1,0 +1,45 @@
+body {
+	background-color: #0c0c0c;
+	color: #cccccc;
+	font-family: roboto;
+}
+
+table {
+	margin: auto;
+	max-width:50%;
+	text-align: center;
+}
+
+td {
+	padding: 10px 5px 0 0;
+}
+
+h2 {
+	margin: 0;
+	text-align: right;
+}
+
+h3 {
+	margin: 0;
+	padding: 0 0 2% 0;
+	text-align: left;
+	border-bottom: 1px dashed white;
+}
+p {
+	margin: 0;
+	text-align:left;
+}
+
+#contact {
+	margin: 0 auto;
+	text-align:center;
+}
+
+#contactH1 {
+	border-bottom: 1px solid #cccccc;
+	text-align: center;
+	margin: 1% 25%;
+	padding: 1% 0;
+	font-size:32px;
+}
+
