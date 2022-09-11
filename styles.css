@@ -31,8 +31,10 @@ p {
 }
 
 #contact {
-	margin: 0 auto;
+	margin: 14% auto;
 	text-align:center;
+	display:block;
+	position: relative;
 }
 
 #contactH1 {
