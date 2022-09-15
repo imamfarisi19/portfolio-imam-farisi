@@ -61,14 +61,28 @@ p {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	padding: 0 300px;	
+	gap:1em;
 }
 
 .grid-container > div {
 	background-color: #cccccc; 
 	border: 1px solid rgba(0,0,0,1);
-	padding: 30px 30px 60px 30px;
+	padding: 30px;
 	text-align: center;
+}
+
+.grid-container > div > img {
+	display: inline-grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-container > div > p {
+	display: inline-grid;
+	text-align: justify;
 	color: black;
+	border:1px solid blue;	
+	font-size: 16px;
 }
 
 .flex-container {
@@ -85,3 +99,22 @@ p {
 	line-height:75px;
 }
 
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(255,255,255,1);
+}
+
+.container {
+	padding: auto;
+	color: black;
+	text-align: justify;
+}
+
+.container > p {
+	font-size:12px;
+	text-align: justify;
+}
