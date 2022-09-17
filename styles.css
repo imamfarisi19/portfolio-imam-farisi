@@ -60,13 +60,12 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	padding: 0 300px;	
+	margin: 0 20em;	
 	gap:1em;
 }
 
 .grid-container > div {
 	background-color: #cccccc; 
-	border: 1px solid rgba(0,0,0,1);
 	padding: 30px;
 	text-align: center;
 }
@@ -100,12 +99,12 @@ p {
 }
 
 .card {
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
+	box-shadow: 0em 0em 1em 0 rgba(0,0,0,1);
+	transition: 0.1s;
 }
 
 .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(255,255,255,1);
+	box-shadow: 0.1em 0.1em 1em 0 #c0c0c0;
 }
 
 .container {
@@ -115,6 +114,22 @@ p {
 }
 
 .container > p {
-	font-size:12px;
+	font-size: 1em;
 	text-align: justify;
+}
+
+.tag-line-container-head {
+	border-bottom: 1px solid #cccccc;
+	margin: 1% 25%;
+	color: #cccccc;
+	text-align: center;
+}
+
+.tag-line-content {
+	margin: 1% 25%;
+	text-align: left;	
+	font-size: 3em;
+	padding: 1em;
+	border: 0.5em solid #cccccc;
+	background-color: black;
 }
