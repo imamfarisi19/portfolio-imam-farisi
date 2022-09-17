@@ -60,7 +60,7 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	margin: 0 20em;	
+	margin: 0 10em;	
 	gap:1em;
 }
 
