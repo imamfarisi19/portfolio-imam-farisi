@@ -60,13 +60,13 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	margin: 0 10em;	
+	margin: 1% 25%;	
 	gap:1em;
 }
 
 .grid-container > div {
 	background-color: #cccccc; 
-	padding: 30px;
+	padding: 1.5em;
 	text-align: center;
 }
 
@@ -185,3 +185,5 @@ p {
 
 .me-content > div > div {
 }
+
+
