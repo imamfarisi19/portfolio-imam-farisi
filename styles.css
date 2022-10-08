@@ -60,7 +60,7 @@ p {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
-	margin: 1% 25%;	
+	margin: 1% 12%;	
 	gap:1em;
 }
 
@@ -208,6 +208,10 @@ p {
 		margin: 5% 10%;
 	}
 
+	.card {
+		background-color: black;
+	}
+	
 	div.card {
 		margin: 5% 0%;
 		box-shadow: 0em 0em 1em 0 rgb(0 0 0);
