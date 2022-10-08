@@ -148,12 +148,10 @@ p {
 }
 
 .skill-table {
-	margin: 5%;
+	margin: 0% 25%;
 }
 .skill-table-table {
-	padding:1em;
 	text-align:center;
-	border-radius: 1em;
 }
 
 .skill-table-table > tbody > tr > th {
@@ -162,6 +160,7 @@ p {
 	border: 1px solid white;
 	border-radius: 1em;
 }
+
 .skill-table-table > tbody > tr > td {
 	padding: 1em;
 	text-align: left;
@@ -169,8 +168,15 @@ p {
 	border-radius: 1em;
 }
 
+th {
+	padding: 1em;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 1em;
+	font-size: 20px;
+}
+
 .contact-table-content table > tr > td {
-	border: 1px solid blue;
 }
 
 .me-head {
@@ -180,26 +186,34 @@ p {
 
 .me-content {
 	display: flex;
-	margin: auto;
-	padding: auto;
-	width: 50%;
+	margin: 1% 25%;
+	width: auto;
+	justify-content: center;
+	position: relative;
 }
 
-.me-content > div {
+.me-img {
 	margin: auto;
-	padding: auto;
-	width: 50%;
-	text-align: center;
-	font-size: 1em;
+	width: 80%;
 }
 
-.me-content > div > div {
+.me-text {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.5);
+	color: #cccccc;	
+	width: 80%;
+	padding:0 0 1em 0;
+}
+
+.me-text-h1 {
+	margin: 0;
+	font-size: 24px;
 }
 
 @media only screen and (max-width: 430px) {
-	.tag-line-container-head {
-
-	}
+	.tag-line-container-head {}
 
 	.tag-line-content {
 		margin: 10%;
@@ -234,5 +248,15 @@ p {
 	.container {
 		font-size: 0.7em;
 	}
+
+	.me-content {
+		margin: 1% 5%;
+	}
+
+	.me-img {
+		height: 30em;
+	}
+	
+
 }
 
