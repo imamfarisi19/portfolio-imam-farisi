@@ -34,18 +34,6 @@ p {
 	text-align:left;
 }
 
-#contact {
-	margin: 1% auto;
-	text-align:center;
-}
-
-#contactH1 {
-	border-bottom: 1px solid #cccccc;
-	text-align: center;
-	margin: 1% 25%;
-	padding: 1% 0;
-}
-
 .center-text {
 	text-align: center;
 	margin: auto;
@@ -176,8 +164,6 @@ th {
 	font-size: 20px;
 }
 
-.contact-table-content table > tr > td {
-}
 
 .me-head {
 	border-bottom: 1px solid #cccccc;
@@ -210,6 +196,25 @@ th {
 .me-text-h1 {
 	margin: 0;
 	font-size: 24px;
+}
+
+#contact {
+	margin: 1% auto 10% auto;
+	text-align:center;
+}
+
+#contactH1 {
+	border-bottom: 1px solid #cccccc;
+	text-align: center;
+	margin: 1% 25%;
+	padding: 1% 0;
+}
+
+.contact-table-content table > tr > td {
+}
+
+.footer-p {
+	text-align: center;
 }
 
 @media only screen and (max-width: 430px) {
@@ -257,6 +262,9 @@ th {
 		height: 30em;
 	}
 	
+	#contact {
+		margin: 1% auto 20% auto;
+	}
 
 }
 
