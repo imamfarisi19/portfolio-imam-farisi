@@ -208,11 +208,22 @@ p {
 		margin: 5% 10%;
 	}
 
-	.card {
-		margin: 5%;
+	div.card {
+		margin: 5% 0%;
 		box-shadow: 0em 0em 1em 0 rgb(0 0 0);
 		transition: 0.1s;
+		display: flex;
+		padding: 0.5em;
+	}
+
+	.card-image {
+		margin: 0 2% 0 0;
+		width: 10em;
+		height: 6em;
+	}
+
+	.container {
+		font-size: 0.7em;
 	}
 }
-
 
