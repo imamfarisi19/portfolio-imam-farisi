@@ -26,7 +26,7 @@ h3 {
 	margin: 0;
 	padding: 0 0 2% 0;
 	text-align: left;
-	border-bottom: 1px dashed #cccccc;
+	color: #cccccc;
 }
 
 p {
@@ -65,7 +65,7 @@ p {
 }
 
 .grid-container > div {
-	background-color: #cccccc; 
+	background-color: #000000; 
 	padding: 1.5em;
 	text-align: center;
 }
@@ -79,7 +79,7 @@ p {
 .grid-container > div > p {
 	display: inline-grid;
 	text-align: justify;
-	color: black;
+	color: #cccccc;
 	border:1px solid blue;	
 	font-size: 16px;
 }
@@ -101,6 +101,8 @@ p {
 .card {
 	box-shadow: 0em 0em 1em 0 rgba(0,0,0,1);
 	transition: 0.1s;
+	border: 1px solid #cccccc;
+	border-radius: 1em;
 }
 
 .card:hover {
@@ -116,6 +118,7 @@ p {
 .container > p {
 	font-size: 1em;
 	text-align: justify;
+	color: rgba(204, 204, 204, 0.6);
 }
 
 .tag-line-container-head {
@@ -145,23 +148,25 @@ p {
 }
 
 .skill-table {
-	margin: 1% 25%;
+	margin: 5%;
 }
 .skill-table-table {
 	padding:1em;
 	text-align:center;
-	border-collapse: collapse;
+	border-radius: 1em;
 }
 
 .skill-table-table > tbody > tr > th {
 	padding: 1em;
 	text-align: center;
 	border: 1px solid white;
+	border-radius: 1em;
 }
 .skill-table-table > tbody > tr > td {
 	padding: 1em;
 	text-align: left;
 	border: 1px solid white;
+	border-radius: 1em;
 }
 
 .contact-table-content table > tr > td {
